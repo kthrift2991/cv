@@ -3,90 +3,58 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Keaton's Personal Site</title>
-
-  <style>
-
-    body{
-      background-color: lightseagreen;
-    }
-    hr{
-      color: white;
-      height: 2px;
-    }
-
-  </style>
-
+  <title>Keaton's Site</title>
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="C:\Users\riot_\OneDrive\Desktop\WebDevelopment\HTML - Personal Site\Me R1.PNG" width="200" height="200" alt="Keaton Motorcycle"></td>
-      <td>
-        <h1>Keaton Thrift</h1>
-        <p><em>Military veteran, quality assurance technician, and student</em></p>
-        <a href="https://www.linkedin.com/in/keaton-thrift-722060184?trk=public_profile_similar-profiles_profile-result-card_result-card_full-click">LinkedIn</a>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Company</th>
-        <th>Dates</th>
-        <th>Title</th>
-      </tr>
-    </thead>
-    <tr>
-      <td>CoreAVI</td>
-      <td>2021 - Present</td>
-      <td>Quality Assurance Technician</td>
-    </tr>
-    <tr>
-      <td>Honeywell Aerospace</td>
-      <td>2019 - 2021</td>
-      <td>Test Technician Level 2</td>
-    </tr>
-    <tr>
-      <td>United States Navy</td>
-      <td>2015 - 2019</td>
-      <td>F/A-18 Aviation Electrician Supervisor</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>
-      <p><strong>Hillsborough Community College:</strong> 2012, 2021 - Present<br> Degree: A.A.-Computer Science(Engineering) <br>Emergency Medical Technician - Basic</p>
-    </li>
-    <li>
-      <p><strong>United States Navy:</strong> 2015 - 2019 <br> Leadership School <br>Aerial Refueling Store School <br>Aviation Electrician's Mate 'A' and 'C' Schools <br> Bootcamp</p>
-    </li>
-    <li>
-      <p><strong>Chamberlain High School:</strong> 2007 - 2011 <br>High School Diploma</p>
-    </li>
-  </ul>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Communication</td>
-      <td>⭐⭐⭐⭐⭐</td>
-      <td>Problem Solving</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Excel</td>
-      <td>⭐⭐⭐</td>
-      <td>Word</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="C:\Users\riot_\OneDrive\Desktop\WebDevelopment\HTML - Personal Site\Contacts.html"><em>Contact Me</em></a>
+
+  <div class="topContainer">
+    <img class="topCloud" src="img/cloud.png" alt="cloudImg">
+    <h1 class="name">I'm Keaton</h1>
+    <p class="programmer">a <span class="pro">pro</span>grammer</p>
+    <img class="bottomCloud" src="img/cloud.png" alt="cloudImg">
+    <img src="img/mountain.png" alt="mountainImg">
+  </div>
+
+  <div class="middleContainer">
+    <div class="profile">
+      <img class="NavyImg" src="img/NavyPro.png" alt="jet">
+      <h2>Hello.</h2>
+      <p>My name is Keaton Thrift. A US Navy veteran and inspiring programmer and developer.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="jet" src="img/jet.png" alt="jet">
+        <h3 class="Programming and Development">Professional</h3>
+        <p>I began to find a passion in programming and development after my time in the Navy. I enjoy working on aircraft by troubleshooting problems and repairing them, but I get to do that and build or construct as well when it comes to coding.</p>
+      </div>
+      <div class="skill-row">
+        <img class="meMotorcycle" src="img/bar.png" alt="Keaton Riding Motorcycle">
+        <h3 class="personal">Personal</h3>
+        <p>While coding is fun and rewarding, there is nothing like having some thrill and excitement in your life. I gain that through riding my motorcycle in my freetime.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3 class="none">If you need a developer or like to ride.</h3>
+      <p class="contact-me-p">Reach out if you're looking for a new entry level full stack developer, if you'd like to go riding some time, or both!</p>
+      <a class="ContactMeButton" href="mailto:kthrift@hawkmail.hccfl.edu">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottomContainer">
+    <a class="footer-link" href="https://www.linkedin.com/in/keaton-thrift-722060184?trk=public_profile_similar-profiles_profile-result-card_result-card_full-click">LinkedIn</a>
+    <p class="copyright">© 2021 Keaton Thrift</p>
+  </div>
+
 </body>
 
 </html>
